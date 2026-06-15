@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        service: ["order", "service"]
+        service: ["order", "payment"]
     steps:
       - uses: actions/checkout@v6
       - name: Install Go
